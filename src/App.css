@@ -1,0 +1,49 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.controls input {
+  padding: 8px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.controls button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.memory-blocks {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.memory-block {
+  padding: 10px;
+  width: 100px;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.memory-block.free {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.memory-block.allocated {
+  background-color: #f8d7da;
+  color: #721c24;
+}
